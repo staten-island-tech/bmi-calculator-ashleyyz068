@@ -13,11 +13,11 @@ function health(x) {
     if (x < 18.5) {
         console.log("You are  underweight")
     }
-    if (x >= 18.5 && x < 24.9) {
+    else if (x >= 18.5 && x < 24.9) {
         console.log("You are within the healthy weight range")
     }
-    if (x >= 24.9 && x < 29.9) {
-        console.log("You are overweight")
+    else {
+        console.log("You are in the unhealthy weight range")
     }
 
 }
