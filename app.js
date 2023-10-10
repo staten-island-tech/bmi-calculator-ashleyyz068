@@ -3,7 +3,7 @@ let userName = prompt("Enter your name:");
 let userWeight = Number(prompt("Enter your weight in kilograms:"));
 let userHeight = Number(prompt("Enter your height in centimeters:"));
 function BMI() {
-    return (userWeight / (Math.pow(userHeight / 100)));
+    return (userWeight / (Math.pow(userHeight / 100),2));
 }
 const bmi = BMI();
 
